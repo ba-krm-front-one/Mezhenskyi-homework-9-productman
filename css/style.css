@@ -19,8 +19,9 @@ body {
     width: 1200px;
     height: 86px;
     padding-top: 50px;
+    margin-bottom: 124px;
 }
-.ba-logo__ba-title {
+.ba-logo__title {
     width: 22%;
     height: 36px;
     color: #303030;
@@ -33,17 +34,17 @@ body {
     margin: 0;
     margin-right: 582px;
 }
-.ba-navigation__ba-list {
+.ba-navigation__container {
     padding:0;
     margin: 0;
     list-style: none;
     float: left;
 }
-.ba-list__ba-item {
+.ba-navigation__item {
     float: left;
     padding: 15px 37px 0 12px ;
 }
-.ba-list__ba-link{
+.ba-navigation__link{
     display: block;
     text-decoration: none;
     height: 14px;
@@ -52,24 +53,159 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
-.ba-header__ba-menu {
+.ba-menu {
     background: url("../img/menu.png");
     width: 17px;
     height: 14px;
     float: left;
     margin-top: 18px;
 }
-.ba-main__ba-slider {
+.ba-slider {
     width: 1200px;
     height: 782px;
-    background: #ff0000;
+    position: relative;
+    z-index: 2;
+ }
+.ba-text {
+    width: 618px;
+    height: 440px;
+    text-align: right;
+    float:left;
+    position: relative;
+    z-index: 2;
 }
-.ba-main__ba-featured-work {
+.ba-text__title {
+    color: #303030;
+    font-family: 'Raleway', sans-serif;
+    font-size: 150px;
+    font-weight: 900;
+    line-height: 150px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 53px;
+}
+.ba-text__content {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    margin-bottom: 25px;
+}
+.ba-text__link {
+    color: #e10011;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-decoration: none;
+}
+.ba-image__headphones {
+    margin-right: 115px;
+    margin-bottom: 120px;
+    padding-top: 10px;
+    float: right;
+    position: relative;
+    z-index: 2;
+}
+.ba-image__gradient {
+    position: absolute;
+    top: -200px;
+    right: -200px;
+    z-index: 1;
+}
+.ba-nav {
+    width: 51px;
+    height: 11px;
+    background: url("../img/slider-nav.png") no-repeat;
+    clear: both;
+    margin: 0 auto;
+}
+.ba-featured-work {
     width: 1200px;
     height: 1193px;
-    background: #00ff00;
+    background-color: #ffffff;
 }
-.ba-main__ba-opt-in {
+.ba-headline__title {
+    width: 431px;
+    color: #303030;
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 900;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+.ba-underline {
+    background: url("../img/underline.png") no-repeat;
+    width: 213px;
+    height: 17px;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+.ba-description {
+    width: 551px;
+    height: 42px;
+    margin: 0 auto;
+}
+.ba-description__content {
+    color: #303030;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 73px;
+    text-align: center;
+}
+.ba-gallery {
+    width: 1055px;
+    height: 810px;
+    margin: 0 auto;
+    margin-top: 73px;
+}
+.ba-speaker {
+    width: 692px;
+    height: 387px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+    float: left;
+    margin-right: 35px;
+}
+.ba-headphones {
+    width: 328px;
+    height: 387px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+    float: left;
+    margin-bottom: 35px;
+}
+.ba-bracelet {
+    width: 328px;
+    height: 387px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+    clear: both;
+    float: left;
+    margin-right: 35px;
+}
+.ba-shoes {
+    width: 327px;
+    height: 387px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+    float: left;
+    margin-right: 37px;
+}
+.ba-chair {
+    width: 328px;
+    height: 387px;
+    border-radius: 5px;
+    background-color: #f3f3fd;
+    float: left;
+}
+.ba-opt-in {
     width: 1200px;
     height: 310px;
     background: #0000ff;
