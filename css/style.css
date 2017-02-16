@@ -223,12 +223,14 @@ body {
     visibility: hidden;
 }
 .ba-overlay__title {
-    width: 350px;
+    width: 225px;
     height: 65px;
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-weight: 900;
+    padding-top: 264px;
+    margin-left: 37px;
 }
 .ba-overlay__underline {
     text-decoration: underline;
@@ -313,6 +315,7 @@ body {
     border: transparent;
     background-color: #e10011;
     float: right;
+    outline-style: none;
 }
 .ba-form__btn-title {
     color: #ffffff;
