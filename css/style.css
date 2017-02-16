@@ -205,6 +205,42 @@ body {
     background-color: #f3f3fd;
     float: left;
 }
+.ba-speaker ,
+.ba-headphones ,
+.ba-bracelet ,
+.ba-shoes ,
+.ba-chair {
+    position: relative;
+}
+.ba-overlay {
+    position: absolute;
+    background-color: red;
+    border-radius: 5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    visibility: hidden;
+}
+.ba-overlay__title {
+    width: 350px;
+    height: 65px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+.ba-overlay__underline {
+    text-decoration: underline;
+}
+.ba-speaker:hover .ba-overlay,
+.ba-headphones:hover .ba-overlay,
+.ba-bracelet:hover .ba-overlay,
+.ba-shoes:hover .ba-overlay,
+.ba-chair:hover .ba-overlay {
+    visibility: visible;
+}
+
 .ba-opt-in {
     width: 1200px;
     height: 310px;
